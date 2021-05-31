@@ -1,0 +1,59 @@
+header {
+ display: flex;
+ width: 1200px;
+ margin: 0 auto;
+ color: white;
+}
+
+.headerall {
+  background-color: rgb(190, 88, 88);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 1600px;
+}
+
+.links {
+  display: flex;
+  margin-left: 400px;
+}
+
+.links h2 {
+ margin-right: 15px;
+ font-weight: normal;
+ border-right: 1px solid white;
+ padding-right:15px;
+ margin-top: 30px;
+ font-size: 22px;
+}
+
+.pic conpa {
+  position: relative;
+}
+
+.pic h1 {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  font-size: 70px;
+  font-family: Simsun;
+}
+
+.pic h2 {
+  position: absolute;
+  top: 450px;
+  left: 450px;
+  font-family: Simsun;
+  font-size: 70px;
+}
+
+.pic span {
+  color: rgb(182, 55, 55);
+  font-weight: bald;
+}
+
+.info {
+  border-top: 1px solid grey;
+  margin-top: 20px;
+  padding-top: 20px;
+}
